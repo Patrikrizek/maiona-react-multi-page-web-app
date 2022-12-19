@@ -12,19 +12,19 @@ const Contact = () => {
             <form>
                 <div className="form-floating mb-3">
                     <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
-                    <label for="floatingInput">Email address</label>
+                    <label htmlFor="floatingInput">Email address</label>
                 </div>
 
                 <div className="form-floating mb-3">
                     <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
-                    <label for="floatingPassword">Subject</label>
+                    <label htmlFor="floatingPassword">Subject</label>
                 </div>
 
                 <div className="form-floating mb-3">
                     <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                    <label for="floatingTextarea">Your Message</label>
+                    <label htmlFor="floatingTextarea">Your Message</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" className="btn btn-primary">Send</button>
             </form>
 
         </>

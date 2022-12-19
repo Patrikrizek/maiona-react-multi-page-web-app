@@ -4,7 +4,7 @@ const Post = ({ post }) => {
     return (
         <div className="col my-2">
             <div className="card" style={{ width: "18rem" }}>
-                <img src={'https://picsum.photos/200'} className="card-img-top" alt="Randomly generated image" />
+                <img src={'https://picsum.photos/200'} className="card-img-top" alt={post.title} />
                 <div className="card-body">
                     <h5 className="card-title">{post.title}</h5>
                     <p className="card-text">{post.body}</p>

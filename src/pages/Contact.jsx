@@ -16,8 +16,8 @@ const Contact = () => {
                 </div>
 
                 <div className="form-floating mb-3">
-                    <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
-                    <label htmlFor="floatingPassword">Subject</label>
+                    <input type="text" className="form-control" id="floatingSubject" placeholder="email subject" />
+                    <label htmlFor="floatingSubject">Subject</label>
                 </div>
 
                 <div className="form-floating mb-3">

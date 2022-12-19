@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 import { getPosts } from "../api/api";
 import { useState, useEffect } from 'react';
 import Post from '../components/Post';
@@ -23,9 +23,11 @@ const Posts = () => {
 
     return (
         <>
-            <Helmet>
-                <title>Posts</title>
-            </Helmet>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Posts</title>
+                </Helmet>
+            </HelmetProvider>
 
             <h1>Posts</h1>
 

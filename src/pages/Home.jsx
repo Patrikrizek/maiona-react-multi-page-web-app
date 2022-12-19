@@ -1,6 +1,12 @@
+import { Helmet } from 'react-helmet';
+
 const Home = () => {
     return (
         <>
+            <Helmet>
+                <title>Home</title>
+            </Helmet>
+
             <div className="p-5 mb-4 bg-light rounded-3">
                 <div className="container-fluid py-5">
                     <h1 className="display-5 fw-bold">Search engine article</h1>
